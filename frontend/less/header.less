@@ -11,28 +11,29 @@ header {
       position: absolute;
       top: 0;
       height: 100%;
+      font-family: 'Roboto Condensed', sans-serif;
     }
 
     .left {
       left: 0;
       width: 69%;
-      background: url("png/img.png") center center no-repeat;
-      background-size: cover;
-      background-color: #e9eae2;
+      background:#e9eae2 url("png/img.png") center center no-repeat;
+      background-size: contain;
 
       .logo {
         position: absolute;
+        cursor: default;
         width: 15.6%;
         top: 10%;
         left: 16.2%;
         margin: 0;
 
         img {
-         width: 100%;
+          width: 100%;
         }
 
         figcaption {
-          font-size: 1vw;
+          font-size: 1.3vw;
           color: #393d3c
         }
       }
@@ -50,7 +51,12 @@ header {
         }
 
         img {
+          transition: transform 0.3s;
           height: 100%;
+        }
+
+        img:hover {
+          transform: scale(1.3, 1.3);
         }
       }
     }
@@ -60,20 +66,12 @@ header {
       width: 31%;
       background-color: #7acec3;
 
-      .line {
-        margin: 43% -40%;
-        background-color: white;
-        width: 200%;
-        height: 1px;
-        transform: rotate(-47deg);
-      }
-
       .address {
         position: absolute;
         left: 12%;
         top: 52.4%;
         color: white;
-        font-size: 0.85vw;
+        font-size: 0.9vw;
       }
 
       .telephone {
@@ -81,7 +79,7 @@ header {
         left: 30%;
         top: 74.6%;
         color: white;
-        font-size: 0.85vw;
+        font-size: 0.9vw;
       }
     }
   }

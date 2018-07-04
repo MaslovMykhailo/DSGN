@@ -1,0 +1,318 @@
+.projects {
+  width: 100%;
+
+  .projects-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: calc(253/300*100%);
+
+    .wrapper {
+      position: absolute;
+      height: 100%;
+      top: 0;
+    }
+
+    .project {
+      position: absolute;
+    }
+
+    @h1: calc(100/253*100%);
+    @h2: calc(60/253*100%);
+    @h3: calc(50/253*100%);
+
+    @w1: calc(147/207*100%);
+    @w2: calc(60/207*100%);
+
+    .row1, .row2 {
+      height: @h1;
+    }
+
+    .row3 {
+      height: @h2;
+    }
+
+    .left-content {
+      left: 0;
+      width: 69%;
+
+      .projects-menu {
+        position: absolute;
+        width: calc(93/207*100%);
+        background-color: #ebb240;
+      }
+
+      .item1 {
+        width: calc(114/207*100%);
+        background: #ffffff url("png/FONDUE.png") right center no-repeat;
+        background-size: contain;
+        right: 0;
+
+        .project-name {
+          left: 18%;
+          top: 17.4%;
+        }
+
+        .description {
+          left: 17.9%;
+          top: 24.6%;
+        }
+
+        .view {
+          top: 51.6%;
+          left: 16%;
+        }
+
+        .heart {
+          top: 77.4%;
+          left: 29.6%;
+        }
+      }
+
+      .item2 {
+        top: @h1;
+        width: @w2;
+        background: #58707a url("png/LOUIS.png") center center no-repeat;
+        background-size: cover;
+
+        .project-name {
+          top: 8.8%;
+          left: 11%;
+          color: #fefefe;
+        }
+
+        .description {
+          top: 16.8%;
+          left: 11%;
+          color: #fefefe;
+        }
+
+        .view {
+          top: 35%;
+          left: 11%;
+          color: #fefefe;
+        }
+
+        .heart {
+          top: 44.9%;
+          left: 33.7%;
+        }
+      }
+
+      .item3 {
+        right: 0;
+        top: @h1;
+        width: @w1;
+        background: #eaeaea url("png/395-396 P22.png") center center no-repeat;
+        background-size: cover;
+
+        .project-name {
+          left: 49%;
+          top: 13.8%;
+        }
+
+        .description {
+          left: 48.8%;
+          top: 21.5%;
+        }
+
+        .view {
+          top: 14.6%;
+          left: 73%;
+        }
+
+        .heart {
+          top: 23.2%;
+          left: 81%;
+        }
+      }
+
+      .item4 {
+        top: calc(2*@h1);
+        width: @w1;
+
+        .back {
+          position: absolute;
+          top: 5%;
+          left: 18%;
+          width: 63.5%;
+          height: 52%;
+          background: #fcfcfc url("png/SESANN.png") top center no-repeat;
+          background-size: contain;
+        }
+
+        .project-name {
+          left: 18.8%;
+          top: 55.7%;
+        }
+
+        .description {
+          left: 18.8%;
+          top: 66%;
+        }
+
+        .view {
+          top: 68%;
+          left: 48%;
+        }
+
+        .heart {
+          top: 68%;
+          left: 76%;
+        }
+      }
+
+      .item5 {
+        top: calc(2*@h1);
+        right: 0;
+        width: @w2;
+        overflow: hidden;
+        background: #cecece;
+
+        .back {
+          position: absolute;
+          background: #cecece url("png/ALESSI.png") left center no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 100%;
+          left: -40%;
+        }
+
+        .project-name {
+          left: 52.7%;
+          top: 20.7%;
+        }
+
+        .description {
+          left: 52.7%;
+          top: 32.7%;
+        }
+
+        .view {
+          top: 55%;
+          left: 41.7%;
+        }
+
+        .heart {
+          top: 69.3%;
+          left: 64%;
+        }
+      }
+    }
+
+    .right-content {
+      right: 0;
+      width: 31%;
+
+      .project {
+        width: 100%;
+      }
+
+      .item6 {
+        height: @h3;
+        background: #dfe0d9 url("png/POTTER.png") right center no-repeat;
+        background-size: contain;
+
+        .project-name {
+          top: 8%;
+          left: 8%;
+        }
+
+        .description {
+          top: 22%;
+          left: 8%;
+        }
+
+        .view {
+          top: 60%;
+          left: 8%;
+        }
+
+        .heart {
+          top: 74%;
+          left: 22%;
+        }
+      }
+
+      .item7 {
+        height: @h1;
+        top: @h3;
+        overflow: hidden;
+        background: #f7f7f3;
+
+        .back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: -13%;
+          background: #f7f7f3 url("png/TABANO.png") top center no-repeat;
+          background-size: contain;
+        }
+
+        .project-name {
+          top: 68%;
+          left: 13%;
+        }
+
+        .description {
+          top: 80%;
+          left: 13%;
+        }
+
+        .view {
+          top: 80%;
+          left: 51.5%;
+        }
+
+        .heart {
+          top: 80%;
+          left: 89.5%;
+        }
+      }
+
+      .item8 {
+        height: @h3;
+        top: calc(@h1 + @h3);
+        overflow: hidden;
+
+        .back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: -23%;
+          background: #ffffff url("png/FIJI.png") center center no-repeat;
+          background-size: contain;
+        }
+
+        .project-name {
+          top: 15%;
+          left: 58%;
+        }
+
+        .description {
+          top: 32%;
+          left: 58%;
+        }
+
+        .view {
+          top: 60%;
+          left: 55.6%;
+        }
+
+        .heart {
+          top: 74.8%;
+          left: 68.4%;
+        }
+      }
+
+      .timeline-menu {
+        position: absolute;
+        width: 100%;
+        top: calc(@h1 + 2*@h3);
+        height: @h2;
+        background-color: #ebb240;
+      }
+    }
+  }
+
+}
