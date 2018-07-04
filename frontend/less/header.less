@@ -1,0 +1,88 @@
+header {
+  width: 100%;
+
+  .header-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: calc(100%/3);
+
+    .content {
+      position: absolute;
+      top: 0;
+      height: 100%;
+    }
+
+    .left {
+      left: 0;
+      width: 69%;
+      background: url("png/img.png") center center no-repeat;
+      background-size: cover;
+      background-color: #e9eae2;
+
+      .logo {
+        position: absolute;
+        width: 15.6%;
+        top: 10%;
+        left: 16.2%;
+        margin: 0;
+
+        img {
+         width: 100%;
+        }
+
+        figcaption {
+          font-size: 1vw;
+          color: #393d3c
+        }
+      }
+
+      .social {
+        position: absolute;
+        top: 75%;
+        left: 16.2%;
+        height: 4%;
+        width: 15.6%;
+        text-align: center;
+
+        a {
+          margin-right: 5%;
+        }
+
+        img {
+          height: 100%;
+        }
+      }
+    }
+
+    .right {
+      right: 0;
+      width: 31%;
+      background-color: #7acec3;
+
+      .line {
+        margin: 43% -40%;
+        background-color: white;
+        width: 200%;
+        height: 1px;
+        transform: rotate(-47deg);
+      }
+
+      .address {
+        position: absolute;
+        left: 12%;
+        top: 52.4%;
+        color: white;
+        font-size: 0.85vw;
+      }
+
+      .telephone {
+        position: absolute;
+        left: 30%;
+        top: 74.6%;
+        color: white;
+        font-size: 0.85vw;
+      }
+    }
+  }
+}
