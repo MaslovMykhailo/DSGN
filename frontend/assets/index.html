@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>DSGN</title>
+    <link rel="shortcut icon" href="./png/DSGN.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
     <body>
     <header>
-        <div class="header-wrapper">
+        <div class="wrapper">
             <div class="content left">
                 <figure class="logo">
                     <img src="svg/DSGN.svg" alt="DSGN logo"/>
@@ -22,27 +23,37 @@
                 </nav>
             </div>
             <div class="content right">
-                <div class="line"></div>
-                <span class="address">
+                <div class="button">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div id="ln" class="line"></div>
+                <span class="address" id="adr">
                     90802 CALIFORNIA<br>
                     LONG BEACH<br>
                     PO BOX 68789<br>
                     300 EAST OCEAN<br>
                     BOULEVARD
                 </span>
-                <span class="telephone">
+                <span class="telephone" id="tel">
                     +64 9 345 6758<br>INFO@DSGN-STUDIO.COM
                 </span>
+                <div id="menu" class="menu-close">
+                    <div><a href="#projects">PROJECTS</a></div>
+                    <div><a href="#studio">STUDIO</a></div>
+                    <div><a href="#news">NEWS</a></div>
+                </div>
             </div>
         </div>
     </header>
-    <section class="projects">
-        <div class="projects-wrapper">
-            <div class="left-content wrapper">
-                <aside class="projects-menu row1">
+    <section class="projects" id="projects">
+        <div class="wrapper">
+            <div class="left-content content">
+                <div class="projects-menu row1">
                     <div class="line"></div>
                     <span class="caption">PROJECTS</span>
-                </aside>
+                </div>
                 <div class="project item1 row1">
                     <span class="project-name">FONDUE</span>
                     <div class="description">
@@ -131,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <div class="right-content wrapper">
+            <div class="right-content content">
                 <div class="project item6">
                     <span class="project-name">POTTER</span>
                     <div class="description">
@@ -185,11 +196,133 @@
                         <span>+200</span>
                     </div>
                 </div>
-                <aside class="timeline-menu row3">
+                <div class="timeline-menu row3">
                     <div class="line"></div>
-                </aside>
+                </div>
             </div>
         </div>
     </section>
+    <section class="studio" id="studio">
+        <div class="wrapper">
+            <div class="left content">
+                <div class="line"></div>
+                <span class="caption">STUDIO</span>
+            </div>
+            <div class="right content">
+                <article>
+                    <b><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin eros sit amet nulla rhoncus dictum.<br><br>
+                        Nam rhoncus fringilla dolor vitae vulputate. Nullam quis eros lorem. Integer cursus erat a orci congue feugiat. Cras rhoncus mollis libero, id aliquet purus varius sed.</i></b><br><br>
+                    <br>
+                    Aenean ullamcorper porta nisl, ac lobortis elit commodo placerat.<br><br>
+                    Vivamus eget laoreet enim. Sed nunc dui, egestas vel diam convallis, faucibus iaculis sapien. Sed ut vulputate nisi.<br><br>
+                    Proin tempor risus tellus. Maecenas sit amet fringilla urna, vel iaculis velit. Sed ac felis et sem mollis dictum sed id orci.
+                </article>
+                <div class="awards">
+                    <img src="png/awards.png" alt="awards"/>
+                    <h3>AWARDS</h3>
+                    <hr>
+                    <span>
+                        Aenean ullamcorper porta nisl, ac lobortis elitcommodo placerat.Vivamus
+                    </span>
+                    <span>
+                        Aenean ullamcorper porta nisl, ac lobortis elitcommodo placerat.Vivamus
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="staff">
+            <article>
+                <b>STAFF.</b><br><br>
+                Sit amet laoreet sapien dictum. Sed eget eros augue. Pellentesque tempor mi sit amet nisi tincidunt tincidunt. Fusce malesuada lectus sed mauris pharetra faucibus.<br><br>
+                Aenean diam tortor, hendrerit ac pulvinar vel, condimentum ac velit. Phasellus eu odio elit. Aenean volutpat mi quam, ut ornare augue tempus ut.<br><br>
+                Morbi sagittis diam mauris, in adipiscing nulla convallis ut.
+            </article>
+            <div class="worker">
+                <figure>
+                    <img src="png/first-worker.png" alt="worker"/>
+                    <figcaption><b>PHILIPPE STARCK</b><br>DESIGNER</figcaption>
+                </figure>
+                <div class="arrow">
+                    <span>CV</span>
+                    <img src="svg/arrow-orange.svg" alt="arrow"/>
+                </div>
+                <nav class="social">
+                    <a href="#"><img src="png/facebook-orange.png" alt="facebook"/></a>
+                    <a href="#"><img src="png/twitter-orange.png" alt="twitter"/></a>
+                    <a href="#"><img src="png/linkedin-orange.png" alt="linkedin"/></a>
+                    <a href="#"><img src="png/g+-orange.png" alt="g+"/></a>
+                </nav>
+            </div>
+            <div class="worker">
+                <figure>
+                    <img src="png/second-worker.png" alt="worker"/>
+                    <figcaption><b>MARIO BELLINI</b><br>DESIGNER</figcaption>
+                </figure>
+                <div class="arrow">
+                    <span>CV</span>
+                    <img src="svg/arrow-orange.svg" alt="arrow"/>
+                </div>
+                <nav class="social">
+                    <a href="#"><img src="png/facebook-orange.png" alt="facebook"/></a>
+                    <a href="#"><img src="png/twitter-orange.png" alt="twitter"/></a>
+                    <a href="#"><img src="png/linkedin-orange.png" alt="linkedin"/></a>
+                    <a href="#"><img src="png/g+-orange.png" alt="g+"/></a>
+                </nav>
+            </div>
+            <div class="worker">
+                <figure>
+                    <img src="png/third-worker.png" alt="worker"/>
+                    <figcaption><b>PATRICIA URQUIOLA</b><br>DESIGNER</figcaption>
+                </figure>
+                <div class="arrow">
+                    <span>CV</span>
+                    <img src="svg/arrow-orange.svg" alt="arrow"/>
+                </div>
+                <nav class="social">
+                    <a href="#"><img src="png/facebook-orange.png" alt="facebook"/></a>
+                    <a href="#"><img src="png/twitter-orange.png" alt="twitter"/></a>
+                    <a href="#"><img src="png/linkedin-orange.png" alt="linkedin"/></a>
+                    <a href="#"><img src="png/g+-orange.png" alt="g+"/></a>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section class="news" id="news">
+        <div class="wrapper">
+            <div class="left content">
+                <div class="line"></div>
+                <span class="caption">NEWS</span>
+            </div>
+            <div class="right content"></div>
+        </div>
+    </section>
+    <footer>
+        <div class="wrapper">
+            <div class="left content"></div>
+            <div class="right content">
+                <span class="address">
+                    90802 CALIFORNIA<br>
+                    LONG BEACH<br>
+                    PO BOX 68789<br>
+                    300 EAST OCEAN<br>
+                    BOULEVARD
+                </span>
+                <span class="telephone">
+                    +64 9 345 6758<br>INFO@DSGN-STUDIO.COM
+                </span>
+                <figure class="logo">
+                    <img src="svg/DSGN.svg" alt="DSGN logo"/>
+                    <figcaption>ASSOCIATES<br> STUDIO<br> DESIGN</figcaption>
+                </figure>
+                <nav class="social">
+                    <a href="#"><img src="png/facebook_icon.png" alt="facebook"/></a>
+                    <a href="#"><img src="png/twitter_icon.png" alt="twitter"/></a>
+                    <a href="#"><img src="png/linkedin_icon.png" alt="linkedin"/></a>
+                    <a href="#"><img src="png/g+_icon.png" alt="g+"/></a>
+                </nav>
+                <span class="copyright">&copy; 2014  DSGN. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
