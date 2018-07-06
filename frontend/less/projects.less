@@ -81,7 +81,12 @@
         .view {
           top: 35%;
           left: 11%;
-          color: #fefefe;
+          span {
+            color: #fefefe !important;
+          }
+          span:hover {
+            color: white !important;
+          }
         }
 
         .heart {
@@ -121,6 +126,7 @@
       .item4 {
         top: calc(2*@h1);
         width: @w1;
+        background: #fcfcfc;
 
         .back {
           position: absolute;
@@ -265,6 +271,7 @@
         height: @h3;
         top: calc(@h1 + @h3);
         overflow: hidden;
+        background: #ffffff;
 
         .back {
           position: absolute;
