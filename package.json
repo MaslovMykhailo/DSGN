@@ -2,9 +2,11 @@
   "name": "dsgn",
   "version": "1.0.0",
   "description": "website example",
-  "main": "index.js",
+  "main": "gulpgile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "./node_modules/.bin/gulp",
+    "build": "NODE_ENV=production npm run gulp"
   },
   "author": "Maslov M. <maslov.mikhail2000@gmail.com>",
   "license": "ISC",
